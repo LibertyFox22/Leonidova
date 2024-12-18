@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code WEB</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="nav-row">
+                <a href="./index.html" class="logo">Code <strong>WEB</strong></a>
+
+                
+
+                <ul class="nav-list">
+                    <li class="nav-list__item"><a href="./index.html" class="nav-list__link nav-list__link--active">Услуги и цены</a></li>
+                    <li class="nav-list__item"><a href="./skills.html" class="nav-list__link">Портфолио</a></li>
+                    <li class="nav-list__item"><a href="./contacts.html" class="nav-list__link">О нас</a></li>
+                    <button class="nav-button">
+                        Заполнить заявку
+                    </button>
+                </ul>
+                
+                <div class="burger">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <section class="example">
+        <div class="container">
+            <div class="example_card">
+                <div class="example_tetle_div">
+                    <h2 class="example_tetle ex0">Примеры наших<br>
+                        работ
+                    </h2>
+                </div>
+                <div class="example_item ex1"><img src="img/portfolio/first.png" alt=""></div>
+                <div class="example_item ex2"><img src="img/portfolio/second.png" alt=""></div>
+                <div class="example_item ex3"><img src="img/portfolio/second.png" alt=""></div>
+                <div class="example_item ex4"><img src="img/portfolio/third.png" alt=""></div>
+                <div class="example_item ex5"><img src="img/portfolio/first.png" alt=""></div>
+                <div class="example_item ex2"><img src="img/portfolio/second.png" alt=""></div>
+                <div class="example_item ex3"><img src="img/portfolio/third.png" alt=""></div>
+                <div class="example_item ex2"><img src="img/portfolio/first.png" alt=""></div>
+                <div class="example_item ex3"><img src="img/portfolio/first.png" alt=""></div>
+                <div class="example_item ex2"><img src="img/portfolio/third.png" alt=""></div>
+                <div class="example_item ex3"><img src="img/portfolio/second.png" alt=""></div>
+            </div>
+
+        <div id="circle" class="cir1"></div>
+        <div id="circle" class="middle"></div>
+        <div id="circle" class="cir2"></div>
+        <div id="circle" class="cir3"></div>
+        <div id="circle" class="cir4"></div>
+        <div id="circle" class="small"></div>
+        
+         </div>
+         
+    </section>
+
+    
+
+    <footer class="footer">
+        <div class="container">
+            <div class="foot-row">
+                <a href="./index.html" class="foot_logo">Code <strong>WEB</strong></a>
+
+                <ul class="foot-list">
+                    <li class="nav-list__item"><a href="./index.html" class="afoot ">Услуги и цены</a></li>
+                    <li class="nav-list__item"><a href="./skills.html" class="afoot">Портфолио</a></li>
+                    <li class="nav-list__item"><a href="./contacts.html" class="afoot">О нас</a></li>
+                    <li class="mail">Email: commercia@code-web.com</li>
+                </ul>
+            </div>
+            <div class="policy">
+                <div class="create-line"></div>
+                <p class="policy_text">Политика конфиденциальности</p>
+            </div>
+            
+        </div>
+    </footer>
+
+    <script >
+        document.querySelector('.burger').addEventListener('click', function() {
+            this.classList.toggle('active');
+            document.querySelector('.nav-list').classList.toggle('open');
+        }
+    )
+    </script>
+
+</body>
+</html>
